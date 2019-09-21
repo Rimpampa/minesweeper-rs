@@ -1,0 +1,5 @@
+/target
+/textures/ase_files
+/.vscode
+/textures/.vscode
+**/*.rs.bk

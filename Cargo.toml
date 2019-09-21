@@ -1,0 +1,15 @@
+[package]
+name = "MineSweeper"
+version = "0.1.0"
+authors = ["Rimpampa <riccardo.ripanti01@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gl = "0.12.0"
+memoffset = "0.3.0"
+rand = "0.6.5"
+image = "0.21.1"
+
+[dependencies.sdl2]
+version = "0.32.2"
+features = ["bundled", "static-link"]
