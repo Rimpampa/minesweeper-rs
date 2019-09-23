@@ -56,7 +56,7 @@ fn main() -> Result<(), String> {
 
     // Create a new window
     let window = video_subsystem
-        .window("Test", 500, 500)
+        .window("MineSweeper", 500, 500)
         .resizable()
         .maximized()
         .opengl()
